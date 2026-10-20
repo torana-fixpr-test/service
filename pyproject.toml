@@ -1,0 +1,7 @@
+[project]
+name = "fixpr-service"
+version = "0.1.0"
+description = "Tiny token-verification service for the torana-fixpr-test walk-through."
+requires-python = ">=3.13"
+# Versions are resolved by the base image's requirements.lock (repo torana-fixpr-test/base).
+dependencies = ["pyjwt>=2.0"]
